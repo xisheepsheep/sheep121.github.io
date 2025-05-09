@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DepositDialog</class>
+ <widget class="QDialog" name="DepositDialog">
+  <property name="windowTitle"><string>存款</string></property>
+  <layout class="QVBoxLayout">
+    <item><widget class="QLineEdit" name="editAmount"><property name="placeholderText"><string>输入金额</string></property></widget></item>
+    <item><widget class="QDialogButtonBox" name="buttonBox"><property name="standardButtons"><set>QDialogButtonBox::Ok|QDialogButtonBox::Cancel</set></property></widget></item>
+  </layout>
+ </widget>
+</ui>

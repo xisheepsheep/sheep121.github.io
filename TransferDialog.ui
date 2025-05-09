@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TransferDialog</class>
+ <widget class="QDialog" name="TransferDialog">
+  <property name="windowTitle"><string>转账</string></property>
+  <layout class="QFormLayout">
+    <item row="0" column="0"><widget class="QLabel" name="labelRecipient"><property name="text"><string>接收账号：</string></property></widget></item>
+    <item row="0" column="1"><widget class="QLineEdit" name="editRecipient"/></item>
+    <item row="1" column="0"><widget class="QLabel" name="labelAmount"><property name="text"><string>金额：</string></property></widget></item>
+    <item row="1" column="1"><widget class="QLineEdit" name="editAmount"/></item>
+    <item row="2" column="0" colspan="2"><widget class="QDialogButtonBox" name="buttonBox"><property name="standardButtons"><set>QDialogButtonBox::Ok|QDialogButtonBox::Cancel</set></property></widget></item>
+  </layout>
+ </widget>
+</ui>

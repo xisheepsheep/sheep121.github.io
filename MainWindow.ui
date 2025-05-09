@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle"><string>ATM 系统</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout">
+    <item><widget class="QPushButton" name="btnNewAcct"><property name="text"><string>新建账户</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnLogin"><property name="text"><string>登录</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnLogout"><property name="text"><string>退出登录</string></property></widget></item>
+    <item><widget class="QComboBox" name="comboAccounts" /></item>
+    <item><widget class="QPushButton" name="btnBalance"><property name="text"><string>余额查询</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnDeposit"><property name="text"><string>存款</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnWithdraw"><property name="text"><string>取款</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnTransfer"><property name="text"><string>转账</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnDeleteAcct"><property name="text"><string>删除账户</string></property></widget></item>
+    <item><widget class="QPushButton" name="btnStats"><property name="text"><string>统计查询</string></property></widget></item>
+   
+    <item>
+        <widget class="QPushButton" name="btnAdminLogin">
+            <property name="text">
+                <string>管理员登录</string>
+            </property>
+        </widget>
+    </item>
+
+</layout>
+  <widget class="QPushButton" name="btnShowInterest"><property name="geometry"><rect><x>20</x><y>200</y><width>120</width><height>30</height></rect></property><property name="text"><string>显示利息信息</string></property></widget></widget>
+ </widget>
+</ui>
